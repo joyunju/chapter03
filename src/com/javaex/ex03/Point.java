@@ -42,7 +42,10 @@ public class Point {
 	}
 
 	// 부모인 odject의 equals()가 맘에 안들어서 재정의
+	// alt + shift + s > Override/Implement Methods로 자동 생성
+	@Override
 	public boolean equals(Object obj) {
+
 		Point p = (Point) obj;
 
 		if (this.x == p.x && this.y == p.y) {
