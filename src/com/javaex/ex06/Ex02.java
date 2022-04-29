@@ -1,4 +1,4 @@
-//메소드 
+// String 메소드 
 // concat()
 // trim()
 // replace()
